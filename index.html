@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PisCue - Game</title>
+  <link rel="stylesheet" href="indexcss.css">
+  <link rel="icon" type="image/png" href="https://i.redd.it/0mvw0rbs0qx41.png">
+</head>
+<body>
+
+<header>
+  <h1>PisCue</h1>
+  <p class="tagline">When science goes wrong… only one scholar can set it right.</p>
+
+  <div class="about-button-container">
+    <a href="about.html" class="about-button">About the Game & Authors</a>
+  </div>
+</header>
+
+<div class="game-section">
+
+  <div id="currentLevel">1 - Academic Building 1</div>
+
+  <div class="bars">
+    <div class="bar-label">Health</div>
+    <div class="bar">
+      <div id="healthBar" class="health"></div>
+    </div>
+
+    <div class="bar-label">Energy</div>
+    <div class="bar">
+      <div id="energyBar" class="energy"></div>
+    </div>
+  </div>
+
+  <canvas id="gameCanvas" width="900" height="500"></canvas>
+
+  <p class="controls">
+    Controls: A → Left | D → Right | W / Space → Jump | E → Attack
+  </p>
+
+</div>
+
+<script src="indexjs.js"></script>
+
+</body>
+</html>
